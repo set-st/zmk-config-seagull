@@ -6,18 +6,35 @@
 #define BLUETOOTH 1
 
 / {
+    macros {
+        git_pull: git_pull {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp G &kp I &kp T &kp SPACE &kp P &kp U &kp L &kp L>;
+            label = "GIT_PULL";
+        };
+
+        git_push: git_push {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp G &kp I &kp T &kp SPACE &kp P &kp U &kp S &kp H>;
+            label = "GIT_PUSH";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         layer_nav {
             bindings = <
 &kt LC(UP)  &kt LG(SPACE)  &kt DEL        &kt BACKSPACE
-&kt HOME    &trans         &kt PAGE_UP    &trans
-&kt END     &kp UP         &kt PAGE_DOWN  &trans         &tog 1
+&kt HOME    &kt LC(D)      &kt PAGE_UP    &git_push
+&kt END     &kp UP         &kt PAGE_DOWN  &git_pull      &tog 1
 &kt LEFT    &kt DOWN       &kt RIGHT      &kt ENTER
             >;
 
             label = "Nav";
+            sensor-bindings = <&inc_dec_kp LC(RIGHT_ARROW) LC(LEFT_ARROW)>;
         };
 
         layer_numpad {
