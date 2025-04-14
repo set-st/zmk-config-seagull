@@ -1,0 +1,56 @@
+layout: {zmk_keyboard: seagull}
+layers:
+  Nav:
+  - {t: Ctl+UP, h: toggle}
+  - {t: Gui+SPACE, h: toggle}
+  - {t: DEL, h: toggle}
+  - {t: BACKSPACE, h: toggle}
+  - {t: HOME, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: PAGE UP, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: END, h: toggle}
+  - UP
+  - {t: PAGE DOWN, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: Numpad, h: toggle}
+  - {t: LEFT, h: toggle}
+  - {t: DOWN, h: toggle}
+  - {t: RIGHT, h: toggle}
+  - {t: ENTER, h: toggle}
+  Numpad:
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP MULTIPLY
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP DIVIDE
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP MINUS
+  - {t: BT, h: toggle}
+  - KP 0
+  - KP DOT
+  - KP PLUS
+  - KP EQUAL
+  BT:
+  - BT CLR
+  - ''
+  - ''
+  - '&bootloader'
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - ''
+  - {t: Nav, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
