@@ -435,8 +435,8 @@ draw_config:
          */
 
         font-family: system-ui, sans-serif;
-        font-size: 12px;
-        font-weight: 300;
+        font-size: 14px;
+        font-weight: 600;
         font-kerning: normal;
         text-rendering: optimizeLegibility;
         fill: var(--color--text);
