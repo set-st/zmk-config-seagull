@@ -1,23 +1,23 @@
 layout: {zmk_keyboard: seagull}
 layers:
   Nav:
-  - {t: Ctl+UP, h: toggle}
-  - {t: Gui+SPACE, h: toggle}
-  - {t: DEL, h: toggle}
-  - {t: BACKSPACE, h: toggle}
+  - {t: 'Ctl+$$mdi:arrow-up-bold$$', h: toggle}
+  - {t: 'Gui+$$mdi:keyboard-space$$', h: toggle}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: toggle}
+  - {t: '$$mdi:backspace$$', h: toggle}
   - {t: HOME, h: toggle}
   - {t: Ctl+D, h: toggle}
   - {t: PAGE UP, h: toggle}
   - '&git_push'
   - {t: END, h: toggle}
-  - UP
+  - $$mdi:arrow-up-bold$$
   - {t: PAGE DOWN, h: toggle}
   - '&git_pull'
   - {t: Numpad, h: toggle}
-  - {t: LEFT, h: toggle}
-  - {t: DOWN, h: toggle}
-  - {t: RIGHT, h: toggle}
-  - {t: ENTER, h: toggle}
+  - {t: '$$mdi:arrow-left-bold$$', h: toggle}
+  - {t: '$$mdi:arrow-down-bold$$', h: toggle}
+  - {t: '$$mdi:arrow-right-bold$$', h: toggle}
+  - {t: '$$mdi:keyboard-return$$', h: toggle}
   Numpad:
   - KP 7
   - KP 8
@@ -37,7 +37,7 @@ layers:
   - KP PLUS
   - KP EQUAL
   BT:
-  - BT CLR
+  - $$mdi:bluetooth-off$$
   - ''
   - ''
   - '&bootloader'
@@ -45,9 +45,9 @@ layers:
   - ''
   - ''
   - ''
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '0'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '1'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '2'}
   - ''
   - {t: Nav, h: toggle}
   - ''
