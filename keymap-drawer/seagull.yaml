@@ -6,13 +6,13 @@ layers:
   - {t: DEL, h: toggle}
   - {t: BACKSPACE, h: toggle}
   - {t: HOME, h: toggle}
-  - {t: ▽, type: trans}
+  - {t: Ctl+D, h: toggle}
   - {t: PAGE UP, h: toggle}
-  - {t: ▽, type: trans}
+  - '&git_push'
   - {t: END, h: toggle}
   - UP
   - {t: PAGE DOWN, h: toggle}
-  - {t: ▽, type: trans}
+  - '&git_pull'
   - {t: Numpad, h: toggle}
   - {t: LEFT, h: toggle}
   - {t: DOWN, h: toggle}

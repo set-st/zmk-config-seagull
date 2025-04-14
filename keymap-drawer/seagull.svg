@@ -154,9 +154,10 @@ path.combo {
 <text x="0" y="0" class="key tap">HOME</text>
 <text x="0" y="24" class="key hold">toggle</text>
 </g>
-<g transform="translate(84, 84)" class="key trans keypos-5">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(84, 84)" class="key keypos-5">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">Ctl+D</text>
+<text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(140, 84)" class="key keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -165,9 +166,9 @@ path.combo {
 </text>
 <text x="0" y="24" class="key hold">toggle</text>
 </g>
-<g transform="translate(196, 84)" class="key trans keypos-7">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(196, 84)" class="key keypos-7">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;git_push</tspan></text>
 </g>
 <g transform="translate(28, 140)" class="key keypos-8">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -185,9 +186,9 @@ path.combo {
 </text>
 <text x="0" y="24" class="key hold">toggle</text>
 </g>
-<g transform="translate(196, 140)" class="key trans keypos-11">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(196, 140)" class="key keypos-11">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;git_pull</tspan></text>
 </g>
 <g transform="translate(252, 140)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
