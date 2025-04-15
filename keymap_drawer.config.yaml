@@ -245,6 +245,7 @@ parse_config:
 
 draw_config:
   separate_combo_diagrams: true
+  draw_key_sides: true
   # key dimensions, non-ortho layouts use key_h for width as well
   # key_w: 100 # This doesn't seem to do anything? 🤔
   key_h: 80
