@@ -20,7 +20,7 @@ config SSD1306
 
 config SSD1306_REVERSE_MODE
     bool
-	default n
+	default y
 
 endif # ZMK_DISPLAY
 
